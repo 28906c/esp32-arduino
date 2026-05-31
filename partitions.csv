@@ -1,0 +1,9 @@
+# ESP32-P4 无 OTA 分区表 (16MB Flash)
+# nvs:      20KB  Non-Volatile Storage
+# phy_init:  4KB  PHY init data
+# factory:  12MB  Application firmware
+# storage:   3MB  SPIFFS (兜底存储, 正式数据存 TF 卡)
+nvs,      data, nvs,      0x9000,  0x5000,
+phy_init, data, phy,      0xe000,  0x1000,
+factory,  app,  factory,  0x10000, 0xC00000,
+storage,  data, spiffs,   ,        0x300000,

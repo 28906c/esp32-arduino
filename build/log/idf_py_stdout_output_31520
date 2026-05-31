@@ -1,0 +1,150 @@
+ESP-ROM:esp32p4-eco2-2024�ESP-ROM:esp32p4-eco2-20240710
+Build:Jul 10 2024
+rst:0x1 (POWERON),boot:0x30f (SPI_FAST_FLASH_BOOT)
+SPI mode:DIO, clock div:1
+load:0x4ff33ce0,len:0x1674
+load:0x4ff2abd0,len:0xe58
+load:0x4ff2cbd0,len:0x332c
+entry 0x4ff2abda
+[0;32mI (25) boot: ESP-IDF v5.4.3 2nd stage bootloader[0m
+[0;32mI (26) boot: compile time May 28 2026 10:06:56[0m
+[0;32mI (26) boot: Multicore bootloader[0m
+[0;32mI (27) boot: chip revision: v1.3[0m
+[0;32mI (29) boot: efuse block revision: v0.3[0m
+[0;32mI (32) boot.esp32p4: SPI Speed      : 80MHz[0m
+[0;32mI (36) boot.esp32p4: SPI Mode       : DIO[0m
+[0;32mI (40) boot.esp32p4: SPI Flash Size : 16MB[0m
+[0;32mI (44) boot: Enabling RNG early entropy source...[0m
+[0;32mI (48) boot: Partition Table:[0m
+[0;32mI (51) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (57) boot:  0 nvs              WiFi data        01 02 00009000 00005000[0m
+[0;32mI (64) boot:  1 phy_init         RF data          01 01 0000e000 00001000[0m
+[0;32mI (70) boot:  2 factory          factory app      00 00 00010000 00c00000[0m
+[0;32mI (77) boot:  3 storage          Unknown data     01 82 00c10000 00300000[0m
+[0;32mI (84) boot: End of partition table[0m
+[0;32mI (86) esp_image: segment 0: paddr=00010020 vaddr=40070020 size=e36b4h (931508) map[0m
+[0;32mI (249) esp_image: segment 1: paddr=000f36dc vaddr=30100000 size=00068h (   104) load[0m
+[0;32mI (251) esp_image: segment 2: paddr=000f374c vaddr=4ff00000 size=0c8cch ( 51404) load[0m
+[0;32mI (264) esp_image: segment 3: paddr=00100020 vaddr=40000020 size=6f4a4h (455844) map[0m
+[0;32mI (342) esp_image: segment 4: paddr=0016f4cc vaddr=4ff0c8cc size=04a70h ( 19056) load[0m
+[0;32mI (347) esp_image: segment 5: paddr=00173f44 vaddr=4ff11380 size=02f9ch ( 12188) load[0m
+[0;32mI (354) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (355) boot: Disabling RNG early entropy source...[0m
+[0;32mI (369) hex_psram: vendor id    : 0x0d (AP)[0m
+[0;32mI (370) hex_psram: Latency      : 0x01 (Fixed)[0m
+[0;32mI (370) hex_psram: DriveStr.    : 0x00 (25 Ohm)[0m
+[0;32mI (370) hex_psram: dev id       : 0x03 (generation 4)[0m
+[0;32mI (375) hex_psram: density      : 0x07 (256 Mbit)[0m
+[0;32mI (380) hex_psram: good-die     : 0x06 (Pass)[0m
+[0;32mI (384) hex_psram: SRF          : 0x02 (Slow Refresh)[0m
+[0;32mI (388) hex_psram: BurstType    : 0x00 ( Wrap)[0m
+[0;32mI (393) hex_psram: BurstLen     : 0x03 (2048 Byte)[0m
+[0;32mI (397) hex_psram: BitMode      : 0x01 (X16 Mode)[0m
+[0;32mI (402) hex_psram: Readlatency  : 0x04 (14 cycles@Fixed)[0m
+[0;32mI (407) hex_psram: DriveStrength: 0x00 (1/1)[0m
+[0;32mI (411) MSPI DQS: tuning success, best phase id is 0[0m
+[0;32mI (583) MSPI DQS: tuning success, best delayline id is 16[0m
+[0;32mI (583) esp_psram: Found 32MB PSRAM device[0m
+[0;32mI (583) esp_psram: Speed: 200MHz[0m
+[0;32mI (584) hex_psram: psram CS IO is dedicated[0m
+[0;32mI (587) cpu_start: Multicore app[0m
+[0;32mI (1533) esp_psram: SPI SRAM memory test OK[0m
+[0;32mI (1545) cpu_start: Pro cpu start user code[0m
+[0;32mI (1545) cpu_start: cpu freq: 360000000 Hz[0m
+[0;32mI (1545) app_init: Application information:[0m
+[0;32mI (1545) app_init: Project name:     shengyu_tongxing_v2[0m
+[0;32mI (1550) app_init: App version:      1[0m
+[0;32mI (1554) app_init: Compile time:     May 28 2026 10:06:35[0m
+[0;32mI (1559) app_init: ELF file SHA256:  6fc7deac8...[0m
+[0;32mI (1563) app_init: ESP-IDF:          v5.4.3[0m
+[0;32mI (1567) efuse_init: Min chip rev:     v0.1[0m
+[0;32mI (1571) efuse_init: Max chip rev:     v1.99 [0m
+[0;32mI (1575) efuse_init: Chip rev:         v1.3[0m
+[0;32mI (1579) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (1585) heap_init: At 4FF1E750 len 0001C870 (114 KiB): RAM[0m
+[0;32mI (1591) heap_init: At 4FF3AFC0 len 00004BF0 (18 KiB): RAM[0m
+[0;32mI (1596) heap_init: At 4FF40000 len 00060000 (384 KiB): RAM[0m
+[0;32mI (1601) heap_init: At 50108080 len 00007F80 (31 KiB): RTCRAM[0m
+[0;32mI (1606) heap_init: At 30100068 len 00001F98 (7 KiB): TCM[0m
+[0;32mI (1612) esp_psram: Adding pool of 32768K of PSRAM memory to heap allocator[0m
+[0;32mI (1619) spi_flash: detected chip: generic[0m
+[0;32mI (1622) spi_flash: flash io: dio[0m
+[0;32mI (1637) main_task: Started on CPU0[0m
+[0;32mI (1667) main_task: Calling app_main()[0m
+
+[BOOT] ========================================
+[BOOT]   声语同行 (Shengyu Tongxing) v2.0.0
+[BOOT]   Target: ESP32-P4 | IDF: v5.4.3
+[BOOT]   PSRAM: Hex 200MHz | Flash: 16MB
+[BOOT] ========================================
+[BOOT] Free heap:  34098324 bytes
+[BOOT] PSRAM size: 33554432 bytes
+[BOOT] Creating message queues...
+[BOOT] Creating tasks...
+[0;33mW (1697) i2c.master: Please check pull-up resistances whether be connected properly. Otherwise unexpected behavior would happen. For more detailed information, please read docs[0m
+[0;32mI (1707) LVGL: Starting LVGL task[0m
+[AUDIO] Audio task starting, init codec...
+[APP  ] App controller ready, waiting on queue
+[0;33mW (1717) i2s_common: dma frame num is adjusted to 256 to align the dma buffer with 64, bufsize = 512[0m
+[AI   ] AI task ready, waiting on queue
+[0;33mW (1737) i2s_common: dma frame num is adjusted to 256 to align the dma buffer with 64, bufsize = 512[0m
+[0;32mI (1717) ESP32_P4_EV: MIPI DSI PHY Powered on[0m
+[0;32mI (1717) STORE: Storage task starting, mounting TF card...[0m
+[0;32mI (1747) ES8311: Work in Slave mode[0m
+[0;32mI (1747) ESP32_P4_EV: Install MIPI DSI LCD control panel[0m
+[0;32mI (1757) I2S_IF: channel mode 0 bits:16/16 channel:2 mask:1[0m
+[0;32mI (1757) gpio: GPIO[43]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;33mW (1767) i2s_common: dma frame num is adjusted to 256 to align the dma buffer with 64, bufsize = 512[0m
+[0;32mI (1787) I2S_IF: STD Mode 1 bits:16/16 channel:2 sample_rate:16000 mask:1[0m
+[0;32mI (1777) gpio: GPIO[44]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (1797) I2S_IF: channel mode 0 bits:16/16 channel:2 mask:1[0m
+[0;33mW (1807) i2s_common: dma frame num is adjusted to 256 to align the dma buffer with 64, bufsize = 512[0m
+[0;32mI (1797) gpio: GPIO[39]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (1817) I2S_IF: STD Mode 0 bits:16/16 channel:2 sample_rate:16000 mask:1[0m
+[0;32mI (1767) ESP32_P4_EV: Install Waveshare 5-DSI-TOUCH-A LCD control panel[0m
+[DIAG ] === Service Console Ready ===
+[DIAG ] Type 'help' for available commands.
+> I (1837) hx8394: version: 1.0.3
+[0;32mI (1847) Adev_Codec: Open codec device OK[0m
+[1;31mE (1847) sdmmc_common: sdmmc_init_ocr: send_op_cond (1) returned 0x107[0m
+[0;32mI (1847) AUDIO_MGR: Audio ready (ES8311+NS4150B, I2S=0, GPIO 45-48,54, I2C=7/8, vol=80)[0m
+[AUDIO] Audio task ready, waiting on queue
+[1;31mE (1857) vfs_fat_sdmmc: sdmmc_card_init failed (0x107).[0m
+[0;32mI (1847) i2c_bus: I2C Bus V2 uses the externally initialized bus handle[0m
+[0;33mW (1877) STORE: TF card mount failed: ESP_ERR_TIMEOUT (continuing without storage)[0m
+  Unknown command: '�'. Type 'help' for available commands.
+> W (3277) hx8394: The 3Ah command has been used and will be overwritten by external initialization sequence
+[0;32mI (3557) ESP32_P4_EV: Display initialized[0m
+[1;31mE (3557) lcd_panel: esp_lcd_panel_swap_xy(50): swap_xy is not supported by this panel[0m
+[1;31mE (3557) lcd_panel: esp_lcd_panel_mirror(43): mirror is not supported by this panel[0m
+[0;32mI (3557) GT911: I2C address initialization procedure skipped - using default GT9xx setup[0m
+[0;32mI (3567) GT911: TouchPad_ID:0x39,0x31,0x31[0m
+[0;32mI (3567) GT911: TouchPad_Config_Version:70[0m
+[UI   ] Display ready (720x1280 MIPI DSI)
+[TC   ] Session start: module=3
+[TC   ] Q0: user=1 correct=1 → OK
+[0;32mI (9387) AUDIO_MGR: ES8311 GPIO reg 0x45 ← 0xC0 (PA ON)[0m
+[0;32mI (9507) AUDIO_MGR: ES8311 GPIO reg 0x45 ← 0x00 (PA OFF)[0m
+[TC   ] Q1: user=2 correct=0 → WRONG
+[0;32mI (11057) AUDIO_MGR: ES8311 GPIO reg 0x45 ← 0xC0 (PA ON)[0m
+[0;32mI (11367) AUDIO_MGR: ES8311 GPIO reg 0x45 ← 0x00 (PA OFF)[0m
+[TC   ] Q2: user=0 correct=0 → OK
+[0;32mI (93547) AUDIO_MGR: ES8311 GPIO reg 0x45 ← 0xC0 (PA ON)[0m
+[0;32mI (93657) AUDIO_MGR: ES8311 GPIO reg 0x45 ← 0x00 (PA OFF)[0m
+[TC   ] Q3: user=0 correct=1 → WRONG
+[0;32mI (96207) AUDIO_MGR: ES8311 GPIO reg 0x45 ← 0xC0 (PA ON)[0m
+[0;32mI (96517) AUDIO_MGR: ES8311 GPIO reg 0x45 ← 0x00 (PA OFF)[0m
+[TC   ] Q4: user=2 correct=0 → WRONG
+[0;32mI (102977) AUDIO_MGR: ES8311 GPIO reg 0x45 ← 0xC0 (PA ON)[0m
+[0;32mI (103287) AUDIO_MGR: ES8311 GPIO reg 0x45 ← 0x00 (PA OFF)[0m
+[TC   ] Session done: 2/5 correct, 95 s
+[TC   ] Session start: module=3
+[TC   ] Q0: user=0 correct=1 → WRONG
+[0;32mI (112277) AUDIO_MGR: ES8311 GPIO reg 0x45 ← 0xC0 (PA ON)[0m
+[0;32mI (112597) AUDIO_MGR: ES8311 GPIO reg 0x45 ← 0x00 (PA OFF)[0m
+[TC   ] Q1: user=3 correct=0 → WRONG
+[0;32mI (114337) AUDIO_MGR: ES8311 GPIO reg 0x45 ← 0xC0 (PA ON)[0m
+[0;32mI (114647) AUDIO_MGR: ES8311 GPIO reg 0x45 ← 0x00 (PA OFF)[0m
+[TC   ] Q2: user=2 correct=0 → WRONG
+[0;32mI (116097) AUDIO_MGR: ES8311 GPIO reg 0x45 ← 0xC0 (PA ON)[0m
+[0;32mI (116407) AUDIO_MGR: ES8311 GPIO reg 0x45 ← 0x00 (PA OFF)[0m

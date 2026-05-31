@@ -1,0 +1,27 @@
+target: esp32p4
+esp-idf: v5.4.3
+lvgl: 8.3.x
+esp-sr: 1.7.x
+esp-dl: 2.1.x
+bsp: waveshare/esp32_p4_nano
+board: 5-DSI-TOUCH-A
+display:
+  controller: HX8394
+  resolution: 720x1280
+  color_format: RGB565
+touch:
+  controller: GT911
+  interface: I2C
+psram:
+  mode: Hex
+  speed_mhz: 200
+  chip: SPIRAM
+flash:
+  size_mb: 16
+storage:
+  tf_card_fs: FATFS
+  tf_card_size_gb: 1
+  onboard_spiffs_mb: 3
+ota: false
+verified: 2026-05-26
+notes: "M0 工程骨架基线。硬件初始化待 M1 验证，TF 卡挂载待 M5 实现。"
