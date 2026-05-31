@@ -1,2 +1,2 @@
 --flash_mode dio --flash_freq 80m --flash_size 16MB
-0x10000 shengyu_tongxing_v2.bin
+0x10000 voca.bin

@@ -1,13 +1,13 @@
 # Target labels
  bootloader
 # Source files and their labels
-D:/shengyu_tongxing_v2/build/CMakeFiles/bootloader
-D:/shengyu_tongxing_v2/build/CMakeFiles/bootloader.rule
-D:/shengyu_tongxing_v2/build/CMakeFiles/bootloader-complete.rule
-D:/shengyu_tongxing_v2/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
-D:/shengyu_tongxing_v2/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
-D:/shengyu_tongxing_v2/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
-D:/shengyu_tongxing_v2/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
-D:/shengyu_tongxing_v2/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
-D:/shengyu_tongxing_v2/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
-D:/shengyu_tongxing_v2/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
+D:/voca/build/CMakeFiles/bootloader
+D:/voca/build/CMakeFiles/bootloader.rule
+D:/voca/build/CMakeFiles/bootloader-complete.rule
+D:/voca/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+D:/voca/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+D:/voca/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+D:/voca/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+D:/voca/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+D:/voca/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+D:/voca/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

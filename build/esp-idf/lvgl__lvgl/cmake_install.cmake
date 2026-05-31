@@ -1,8 +1,8 @@
-# Install script for directory: D:/shengyu_tongxing_v2/managed_components/lvgl__lvgl
+# Install script for directory: D:/voca/managed_components/lvgl__lvgl
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/shengyu_tongxing_v2")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/voca")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

@@ -9,15 +9,15 @@ static const char *TAG = "PROMPTS";
 
 /* ---- Prompt ID → TF card path ---- */
 static const char *s_prompt_paths[PROMPT_COUNT] = {
-    [PROMPT_WORD_APPLE]       = "/sdcard/shengyu/prompts/word_apple.wav",
-    [PROMPT_WORD_CUP]         = "/sdcard/shengyu/prompts/word_cup.wav",
-    [PROMPT_WORD_SUN]         = "/sdcard/shengyu/prompts/word_sun.wav",
-    [PROMPT_WORD_KEY]         = "/sdcard/shengyu/prompts/word_key.wav",
-    [PROMPT_WORD_PHONE]       = "/sdcard/shengyu/prompts/word_phone.wav",
-    [PROMPT_FEEDBACK_CORRECT] = "/sdcard/shengyu/prompts/feedback_correct.wav",
-    [PROMPT_FEEDBACK_WRONG]   = "/sdcard/shengyu/prompts/feedback_wrong.wav",
-    [PROMPT_RECORD_START]     = "/sdcard/shengyu/prompts/record_start.wav",
-    [PROMPT_RECORD_END]       = "/sdcard/shengyu/prompts/record_end.wav",
+    [PROMPT_WORD_APPLE]       = "/sdcard/voca/prompts/word_apple.wav",
+    [PROMPT_WORD_CUP]         = "/sdcard/voca/prompts/word_cup.wav",
+    [PROMPT_WORD_SUN]         = "/sdcard/voca/prompts/word_sun.wav",
+    [PROMPT_WORD_KEY]         = "/sdcard/voca/prompts/word_key.wav",
+    [PROMPT_WORD_PHONE]       = "/sdcard/voca/prompts/word_phone.wav",
+    [PROMPT_FEEDBACK_CORRECT] = "/sdcard/voca/prompts/feedback_correct.wav",
+    [PROMPT_FEEDBACK_WRONG]   = "/sdcard/voca/prompts/feedback_wrong.wav",
+    [PROMPT_RECORD_START]     = "/sdcard/voca/prompts/record_start.wav",
+    [PROMPT_RECORD_END]       = "/sdcard/voca/prompts/record_end.wav",
 };
 
 /* ---- Fallback beep frequencies per prompt type ---- */

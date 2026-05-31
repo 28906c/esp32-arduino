@@ -13,8 +13,8 @@ end
 
 # Load bootloader symbols
 set confirm off
-    add-symbol-file D:/shengyu_tongxing_v2/build/bootloader/bootloader.elf
+    add-symbol-file D:/voca/build/bootloader/bootloader.elf
 set confirm on
 
 # Load application symbols
-file D:/shengyu_tongxing_v2/build/shengyu_tongxing_v2.elf
+file D:/voca/build/voca.elf

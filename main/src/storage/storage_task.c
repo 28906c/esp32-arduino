@@ -18,11 +18,11 @@ bool storage_is_ready(void)
 
 static void create_dirs(void)
 {
-    mkdir("/sdcard/shengyu", 0755);
-    mkdir("/sdcard/shengyu/prompts", 0755);
-    mkdir("/sdcard/shengyu/recordings", 0755);
-    mkdir("/sdcard/shengyu/models", 0755);
-    mkdir("/sdcard/shengyu/images", 0755);
+    mkdir("/sdcard/voca", 0755);
+    mkdir("/sdcard/voca/prompts", 0755);
+    mkdir("/sdcard/voca/recordings", 0755);
+    mkdir("/sdcard/voca/models", 0755);
+    mkdir("/sdcard/voca/images", 0755);
 }
 
 static bool mount_tf_card(void)

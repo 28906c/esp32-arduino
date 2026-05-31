@@ -17,4 +17,4 @@ set confirm off
 set confirm on
 
 # Load application symbols
-file D:/shengyu_tongxing_v2/build/bootloader/bootloader.elf
+file D:/voca/build/bootloader/bootloader.elf

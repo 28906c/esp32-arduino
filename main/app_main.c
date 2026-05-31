@@ -24,7 +24,7 @@ static void print_banner(void)
 
     printf("\n");
     printf("[BOOT] ========================================\n");
-    printf("[BOOT]   声语同行 (Shengyu Tongxing) v2.0.0\n");
+    printf("[BOOT]   VOCA - Voice Companion for Aphasia v2.0.0\n");
     printf("[BOOT]   Target: ESP32-P4 | IDF: v5.4.3\n");
     printf("[BOOT]   PSRAM: Hex 200MHz | Flash: 16MB\n");
     printf("[BOOT] ========================================\n");
